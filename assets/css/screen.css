@@ -270,6 +270,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .nav li a:hover {
     text-decoration: none;
     opacity: 1;
+    background-color: transparent;
 }
 
 .site-nav-right {
@@ -752,6 +753,10 @@ Usage (In Ghost edtior):
 .post-full-content img[src$="#full"] {
     max-width: none;
     width: 100vw;
+}
+
+.img-fit {
+    max-width: 100% !important;
 }
 
 
@@ -1502,7 +1507,7 @@ Usage (In Ghost editor):
     border: none;
     color: var(--blue);
     background: transparent;
-
+    margin-bottom: 0px;
     appearance: none;
 }
 
